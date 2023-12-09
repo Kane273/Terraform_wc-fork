@@ -12,5 +12,5 @@ variable "AMI" {
 }
 
 variable "PUBLIC_KEY_PATH" {
-    default = "c:\Users\kunal\Documents\GitHub\Terraform_wc-fork\oregon-region-key-pair.pub"
+    default = "C:\Users\kunal\Documents\GitHub\Terraform_wc-fork\oregon-region-key-pair.pub"
 }
