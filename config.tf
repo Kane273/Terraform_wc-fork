@@ -1,3 +1,16 @@
+terraform {
+    required_providers {
+        aws= {
+            source = "hashicorp/aws"
+            version = "5.6.2"
+        }
+    }
+    # scenario 2 -using "s3" backend
+    backend "s3" {
+        bucket      = "terraformproject"
+        region      = "us-west-2"
+    }
+}
 provider "aws" {
-    region = "${var.AWS_REGION}"
+    region = "us-west-2"
 }
